@@ -1,0 +1,7 @@
+#利用使用者所輸入的球體半徑來計算其體積(V)及表面積(A)：V = 4/3πr^3 , A = 4πr^2
+def ComputeSphereVolumnAndArea():
+    pi = 3.1415926
+    radius = eval(input("Set [Radius] of a sphere:"))
+    print("The [Volumn] of this sphere is: ", 4 * pi * radius**3 / 3)
+    print("The [Area] of this sphere is ", 4 * pi * radius**2)
+ComputeSphereVolumnAndArea()
